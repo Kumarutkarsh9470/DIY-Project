@@ -156,12 +156,6 @@ button:hover {
   color: #333;
 }
 
-.poll-meta {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 20px;
-}
-
 .options {
   margin-bottom: 20px;
 }
@@ -245,3 +239,40 @@ footer {
     font-size: 2rem;
   }
 }
+.search-filter {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filters button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filters button.active {
+  background-color: #4d79ff;
+  color: white;
+}
+
+.your-poll-tag {
+  background-color: #4d79ff;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.voted-message {
+  color: #28a745;
+  font-style: italic;
+  margin-top: 8px;
+}
+
